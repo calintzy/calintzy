@@ -17,7 +17,7 @@ Most of my recent work makes agent behavior measurable, and I ship all of it, ac
 - **ratchetlock** — regression testing for LLM prompts. Freeze outputs that pass, replay them in CI with zero LLM calls — built after a prompt fix quietly un-fixed itself four days in a row
 - **mycelium** — hybrid RAG for markdown vaults, 98.0% Hit@5 on KorQuAD. Recently benchmarked it against agentic search and stock plugin embeddings
 - **adoptscore** — reads conversation logs to find out which AI tools you actually use. Its own first headline (78% unused) failed an audit; the honest number is 38.6%
-- **daily briefing** — turns each morning's AI news into Instagram cards with no human in the loop ([@todays.ai.brief](https://www.instagram.com/todays.ai.brief)), scheduled with Airflow
+- **daily briefing** — turns each morning's AI news into Instagram cards and ships top-5 news Reels twice a day, no human in the loop ([@todays.ai.brief](https://www.instagram.com/todays.ai.brief), [@muleori.news](https://www.instagram.com/muleori.news)), scheduled with Airflow
 
 <br/>
 

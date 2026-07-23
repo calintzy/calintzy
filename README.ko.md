@@ -17,7 +17,7 @@
 - **ratchetlock** — LLM 프롬프트용 회귀 테스트. 통과한 출력을 저장해 두고 CI에서는 LLM 호출 없이 재채점합니다. 고쳐 둔 프롬프트 문제가 나흘 연속 되살아난 사고가 출발점입니다
 - **mycelium** — 마크다운 볼트용 하이브리드 RAG. 공개 벤치마크 KorQuAD에서 Hit@5 98.0%를 쟀고, 최근에는 에이전틱 검색이나 플러그인 기본 임베딩과도 비교해 봤습니다
 - **adoptscore** — 설치 목록이 아니라 대화 로그를 읽어 실제로 쓰는 도구를 가려냅니다. 처음 나온 "78%를 안 쓴다"는 숫자를 스스로 검증해 38.6%로 바로잡았습니다
-- **daily briefing** — 매일 아침 AI 뉴스를 사람 손 없이 인스타그램 카드로 발행합니다([@todays.ai.brief](https://www.instagram.com/todays.ai.brief)). 스케줄은 Airflow로 관리합니다
+- **daily briefing** — 매일 아침 AI 뉴스를 사람 손 없이 인스타그램 카드로 발행하고, 뉴스 TOP5 릴스도 아침저녁 두 번 무인으로 냅니다([@todays.ai.brief](https://www.instagram.com/todays.ai.brief), [@muleori.news](https://www.instagram.com/muleori.news)). 스케줄은 Airflow로 관리합니다
 
 <br/>
 
